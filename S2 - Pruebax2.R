@@ -25,7 +25,6 @@ hist(promedios)
 qqnorm(promedios)
 qqline(promedios)
 
-#1)What is the average of the distribution of the sample average?
 #1)¿Cuál es el promedio de la distribución del promedio muestral?
 
 mean(promedios)

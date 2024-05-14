@@ -1,5 +1,5 @@
 library(rafalib)
-data(father.son,package="UsingR") ##available from CRAN
+data(father.son,package="UsingR") 
 head(father.son)
 
 f = father.son$fheight

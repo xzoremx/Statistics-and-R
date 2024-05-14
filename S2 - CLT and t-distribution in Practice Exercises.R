@@ -37,8 +37,6 @@ X <- filter(dat, Diet=="chow") %>% select(Bodyweight) %>% unlist
 Y <- filter(dat, Diet=="hf") %>% select(Bodyweight) %>% unlist
 Xprom_muestral = mean(X)
 Yprom_muestral = mean(Y)
-# 4. Xprom follows a normal distribution with mean ux  and 
-#standard deviation  ox/sqrt(12) where ox is the population standard deviation.
 
 
 ox = sd(X) #Desviacion estandar de la poblacion(es una estimacion)

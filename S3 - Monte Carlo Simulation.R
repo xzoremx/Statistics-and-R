@@ -8,6 +8,7 @@ controlPopulation <- read.csv("femaleMiceWeights.csv")$Bodyweight
 head(controlPopulation)
 controlPopulation = unlist((controlPopulation))
 controlPopulation
+
 #Funcion de t-test:
 
 ttestgenerator = function(n){

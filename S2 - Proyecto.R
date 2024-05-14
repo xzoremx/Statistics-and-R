@@ -114,7 +114,7 @@ plot(ecdf(vector_x))
 
 #----
 
-# make averages5
+# hace promedio de una muestra de 5
 set.seed(1)
 n <- 1000
 averages5 <- vector("numeric",n)
@@ -123,7 +123,7 @@ for(i in 1:n){
   averages5[i] <- mean(X1)
 }
 X1
-# make averages50
+# hace promedio de una muestra de 50
 set.seed(1)
 n <- 1000
 averages50 <- vector("numeric",n)
