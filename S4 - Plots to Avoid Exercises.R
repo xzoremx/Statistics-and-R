@@ -1,0 +1,6 @@
+library(dslabs)
+data("divorce_margarine")
+plot(divorce_margarine$margarine_consumption_per_capita, divorce_margarine$divorce_rate_maine)
+cor(divorce_margarine$margarine_consumption_per_capita, divorce_margarine$divorce_rate_maine)
+head(divorce_margarine)
+#Correlacion no implica causalidad
